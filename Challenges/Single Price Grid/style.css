@@ -2,8 +2,8 @@
 
 html {
 
-    height: 800px;
-    width: 800px;
+    height: 1000px;
+    width:  1000px;
 }
 
 body {
@@ -11,17 +11,16 @@ body {
 
 }
 
-.flex-container {
+.grid-container {
 
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    flex-wrap: nowrap;
-    margin: 70px 100px 500px 400px;
+    display: grid;
+  
+
+
+    margin: 70px 150px 500px 300px;
     width: 700px;
     height: 300px;
     padding: 90px;
-
 
 }
 
@@ -38,7 +37,7 @@ body {
 
 
     background-color: #218681;
-    padding: 2px 10px 10px;
+    padding: 22px;
 
 }
 
